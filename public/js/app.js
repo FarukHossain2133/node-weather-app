@@ -1,4 +1,4 @@
-
+console.log('This is clilent side script')
 function weather(location){
     const p1 = document.querySelector('.p1');
     const p2 = document.querySelector('.p2');
@@ -15,7 +15,7 @@ function weather(location){
            
         })
     }).catch(error => {
-        console.log(error)
+       
     })
 }
 
