@@ -1,0 +1,181 @@
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #aaa;
+    color: #666;
+    display: flex;
+   
+}
+
+#container {
+    width: 85vw;
+    min-height: 95vh;
+    position: relative;
+    background-color: #eee;
+    margin: auto auto;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, .3);
+
+}
+
+.title,
+.name {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#nav {
+ width: 100%;
+ background-color: #666;
+ 
+    
+}
+
+#nav ul {
+display: flex;
+flex-direction: row;
+font-size: 18px;
+justify-content: space-around;
+text-transform: uppercase;
+margin: 0 10px;
+
+
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+
+#nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ddd;
+    background-color: #666;
+    border-radius: 3px;
+    transition: all .3s;
+    padding: 12px 20px;
+
+}
+#nav ul li a:hover {
+    color: #666;
+    background-color: #ddd;
+}
+
+#footer {
+    background-color: #666;
+    color: #ddd;
+    text-align: center;
+    width: 101%;
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: translate(-50%, -50%);
+    margin:  0 ;
+}
+
+
+.err {
+    text-align: center;
+    color: darkred;
+    font-size: 20px;
+    text-transform: uppercase;
+    animation: errorPage .7s infinite linear;
+}
+
+@keyframes errorPage {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+
+#formDiv {
+   width: 70%;
+   margin: 0 auto;
+   background-color: #666;
+   color: #ddd;
+   border-radius: 5px;
+   box-shadow: 0px 15px 20px rgba(0, 0, 0, .2);
+
+
+}
+
+#formDiv form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+#formDiv form > *{
+    margin: 5px;
+    padding: 7px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+#formDiv form > *:focus{
+   outline: none;
+}
+
+
+
+#formDiv form label{
+    text-align: center;
+}
+#formDiv form input{
+    text-transform: none;
+    background-color: #ddd
+    
+}
+#formDiv form input::placeholder{
+    font-size: 16px;
+}
+#formDiv form button{
+    color: #666;
+    cursor: pointer;
+    transition: all .3s;
+}
+#formDiv form button:hover {
+    background-color: #ccc;
+    color: #444;
+}
+
+#result {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+#result .p1 {
+    text-align: center;
+}
+#result .p2 {
+    text-align: center;
+}
+#result h4 {
+    text-align: center;
+}
