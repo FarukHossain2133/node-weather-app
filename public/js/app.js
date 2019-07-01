@@ -15,7 +15,7 @@ function weather(location){
            
         })
     }).catch(error => {
-       
+       console.log(error)
     })
 }
 
