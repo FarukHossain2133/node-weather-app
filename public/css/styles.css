@@ -67,11 +67,11 @@ margin: 0 10px;
     border-radius: 3px;
     transition: all .3s;
     padding: 12px 20px;
-
+   
 }
 #nav ul li a:hover {
-    color: #666;
-    background-color: #ddd;
+    color: #ccc;
+    background-color: #555;
 }
 
 #footer {
@@ -167,11 +167,27 @@ margin: 0 10px;
 #result {
     width: 70%;
     margin: 0 auto;
-    background-color: #ddd;
     border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+ #result .div1{
+    border: 1px solid #555;
+    transition: all .3s;
+ }
+ #result .div1:hover {
+     background-color: #ddd;
+    transition: all .3s;
+ }
+ #result .div2{
+    border: 1px solid #555;
+ }
+ #result .div2:hover {
+    background-color: #ddd;
 }
 #result .p1 {
-    text-align: center;
+    text-align: center;  
 }
 #result .p2 {
     text-align: center;
