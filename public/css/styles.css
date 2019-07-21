@@ -34,7 +34,10 @@ img {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
+    transition: all .5s;
+    animation: errorPage 1s infinite;
 }
+ 
 
 #nav {
  width: 100%;

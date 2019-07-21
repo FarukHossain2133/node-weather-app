@@ -11,8 +11,8 @@ const forecast = (lat, lon, callback) => {
       }else{
         const variable =  body.currently;
         callback(undefined, `It is currently ${variable.temperature} degree and <br>
-         Todays higher temperature is : ${body.daily.data[0].temperatureHigh} <br> 
-         Todays lower temperature is : ${body.daily.data[0].temperatureLow} <br>
+         Todays highest temperature is : ${body.daily.data[0].temperatureHigh} <br> 
+         Todays lowest temperature is : ${body.daily.data[0].temperatureLow} <br>
          Status is: ${body.daily.data[1].summary}`)
       }
     })
